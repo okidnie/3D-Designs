@@ -17,7 +17,7 @@ difference() {
     // Screw hole
     translate([12.7,-1,88.9+th]) {
         rotate([90,0,180]) {
-            cylinder(h=th+2, d1=3, d2=10 bbv, center=false);
+            cylinder(h=th+2, d1=3, d2=10, center=false);
         }
     }
     translate([w-12.7,-1,88.9+th]) {
